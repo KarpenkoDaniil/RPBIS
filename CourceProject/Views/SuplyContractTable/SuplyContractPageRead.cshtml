@@ -1,0 +1,112 @@
+﻿@model List<DBModels.SupplyContract>
+
+@{
+    Layout = "~/Views/Shared/MasterPage.cshtml";
+}
+
+<form action="SuplyContractPageRoot" id="DivMenu">
+    <button name="menu_button_0" value="Y" onclick="SumbitFuncButton(0)" id="skewed_button">Добавить записи</button>
+    <button name="menu_button_1" value="N" onclick="SumbitFuncButton(1)" id="skewed_button">Вывести записи</button>
+    <button name="menu_button_2" value="N" onclick="SumbitFuncButton(2)" id="skewed_button">Обновить записи</button>
+    <button name="menu_button_3" value="N" onclick="SumbitFuncButton(3)" id="skewed_button">Удалить записи</button>
+    <button name="menu_button_4" value="N" onclick="SumbitFuncButton(4)" id="skewed_button">Вернутся</button>
+    <input id="SecretInput" name="sumbitButton" value="Read" style="display:none;" />
+</form>
+
+<div id="DivMenuOfFiltersOfRead">
+    <form method="post" id="DivSelectMenu">
+        <div id="DivMenuOfTable">
+            <label>Индефикатор поставки</label>
+            <input id="0" type="checkbox" onchange="ChoseFilterInput(0)" />
+        </div>
+        <div id="DivMenuOfTable">
+            <label>Дата подписания договора</label>
+            <input id="1" type="checkbox" onchange="ChoseFilterInput(1)" />
+        </div>
+        <div id="DivMenuOfTable">
+            <label>Дата доставки</label>
+            <input id="2" type="checkbox" onchange="ChoseFilterInput(2)" />
+        </div>
+        <div id="DivMenuOfTable">
+            <label>Поставщик</label>
+            <input id="3" type="checkbox" onchange="ChoseFilterInput(3)" />
+        </div>
+        <div id="DivMenuOfTable">
+            <label>Размер поставки</label>
+            <input id="4" type="checkbox" onchange="ChoseFilterInput(4)" />
+        </div>
+        <div id="DivMenuOfTable">
+            <label>Индефикатор материала</label>
+            <input id="5" type="checkbox" onchange="ChoseFilterInput(5)" />
+        </div>
+        <div id="DivMenuOfTable">
+            <label>Индефикаторсотрудника который заключал контракт</label>
+            <input id="6" type="checkbox" onchange="ChoseFilterInput(6)" />
+        </div>
+    </form>
+
+    <div>
+        <label>Чтение</label>
+        <form style="background-color: powderblue;" id="DivInputMenu" method="post" action="SuplyContractPageRead">
+             <div style="display: none;" name="0input" id="DivMenuOfTable">
+                <label>Индефикатор поставки</label>
+                <input name="SupplyContractsId" type="number" />
+            </div>
+            <div style="display: none;" name="1input" id="DivMenuOfTable">
+                <label>Дата подписания договора</label>
+                <input type="datetime" name="DateOfConclusion" />
+            </div>
+            <div style="display: none;" name="2input" id="DivMenuOfTable">
+                <label>Дата доставки</label>
+                <input type="datetime" name="DateOfDiliver" />
+            </div>
+            <div style="display: none;" name="3input" id="DivMenuOfTable">
+                <label>Поставщик</label>
+                <input type="text" name="Supplyer" />
+            </div>
+            <div style="display: none;" name="4input" id="DivMenuOfTable">
+                <label>Размер поставки</label>
+                <input type="number" name="DiliverySize" />
+            </div>
+            <div style="display: none;" name="5input" id="DivMenuOfTable">
+                <label>Индефикатор материала</label>
+                <input type="number" name="MaterialId" />
+            </div>
+            <div style="display: none;" name="6input" id="DivMenuOfTable">
+                <label>Индефикаторсотрудника который заключал контракт</label>
+                <input type="number" name="EmployeeId" />
+            </div>
+
+            <input name="TypePage" value="ReadPage" style="display: none;" />
+            <button id="skewed_button" type="submit">Отправить</button>
+        </form>
+    </div>
+</div>
+<div id="DivInputFilter's'">
+</div>
+<div id="DivResult">
+    @if (Model.Count != 0)
+    {
+        <table class="table">
+            <tr>
+                <th>SupplyContractsId</th>
+                <th>DateOfConclusion</th>
+                <th>DateOfDiliver</th>
+                <th>DiliverySize</th>
+                <th>MaterialId</th>
+                <th>EmployeeId</th>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.SupplyContractsId</td>
+                    <td>@item.DateOfConclusion</td>
+                    <td>@item.DateOfDiliver</td>
+                    <td>@item.DiliverySize</td>
+                    <td>@item.MaterialId</td>
+                    <td>@item.EmployeeId</td>
+                </tr>
+            }
+        </table>
+    }
+</div>

@@ -1,0 +1,64 @@
+﻿@model List<CourceProject.Models.User>
+
+@{
+    Layout = "~/Views/Shared/MasterPage.cshtml";
+}
+
+@if (User.IsInRole("SuperUser"))
+{
+    <form action="AdministrationRoot">
+        <button id="skewed_button" name="menu_button_0" onclick="SumbitFuncButton(0)">Вернуться на главную</button>
+        <button id="skewed_button" name="menu_button_1" onclick="SumbitFuncButton(1)">Исправить учетные записи пользователей</button>
+        <button id="skewed_button" name="menu_button_2" onclick="SumbitFuncButton(2)">Забнить/разбанить пользователя</button>
+        <button id="skewed_button" name="menu_button_3" onclick="SumbitFuncButton(3)">Добавить новые роли</button>
+        <input id="SecretInput" name="sumbitButton" value="Create" style="display:none;" />
+    </form>
+
+    <table class="table">
+        <tr>
+            <td>ID</td>
+            <td>FirstName</td>
+            <td>LastName</td>
+            <td>Login</td>
+            <td>PhoneNumber</td>
+            <td>Email</td>
+        </tr>
+        @foreach(var user in Model)
+        {
+           <tr>
+                <form asp-action="AdministrationPageBanedUsersPost">
+                    <td name="ID">@user.Id</td>
+                    <td>@user.FirstName</td>
+                    <td>@user.LastName</td>
+                    <td>@user.UserName</td>
+                    <td>@user.PhoneNumber</td>
+                    <td>@user.Email</td>
+                    <input style="display: none;" value="@user.Id" name="ID"/>
+                    @if (user.LockoutEnabled && user.LockoutEnd > DateTimeOffset.UtcNow)
+                    {
+                        <td>
+                            <button id="skewed_button" name="ButtonBan" value="UB" type="submit">Разбанить</button>
+                        </td>
+                    }
+                    else
+                    {
+                        <td>
+                            <button id="skewed_button" name="ButtonBan" value="B" type="submit">Забанить</button>
+                        </td>
+                    }
+               </form>
+           </tr> 
+        }
+    </table>
+}
+else
+{
+    <div>
+        <label>
+            Что пошло не так. Нажмите кнопку что бы вернуться на главную страницу.
+        </label>
+        <form action="AdministrationRoot">
+            <button type="submit">Вернуться</button>
+        </form>
+    </div>
+}

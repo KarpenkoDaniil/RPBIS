@@ -1,0 +1,23 @@
+﻿@model CourceProject.Models.LogerViewModel
+
+@{
+    Layout = "~/Views/Shared/MasterPage.cshtml";
+}
+
+<div id="DivCommonStyle">
+    <form method="post" id="DivCommonStyle" asp-action="ResultLoger">
+        <div id="DivInputStyle">
+            <label asp-for="Login"></label>
+            <input id="InputCommonStyle" name="login" asp-for="Login"/>
+        </div>
+        <div id="DivInputStyle">
+            <label asp-for="Password"></label>
+            <input id="InputCommonStyle" name="password" type="password" asp-for="Password" />
+        </div>
+        <button type="submit" id="skewed_button" name="SenderButton">Войти</button>
+    </form>
+    <form id="DivCommonStyle" method="get" asp-action="Register">
+        <button type="submit" id="skewed_button" name="RegisterButton">Регестрация</button>
+    </form>
+</div>
+

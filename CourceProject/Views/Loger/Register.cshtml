@@ -1,0 +1,38 @@
+﻿@model CourceProject.Models.RegistrationViewModel
+
+@{
+    Layout = "~/Views/Shared/MasterPage.cshtml"; 
+}
+
+<div id="DivCommonStyle">
+    <form method="post" id="DivCommonStyle" asp-action="RegistrationResult">
+        <div id="DivInputStyle">
+            <label asp-for="LastName"></label>
+            <input asp-for="LastName" id="InputCommonStyle" />
+            <span asp-validation-for="LastName"></span>
+        </div>
+        <div id="DivInputStyle">
+            <label asp-for="FirstName"></label>
+            <input id="InputCommonStyle" asp-for="FirstName" />
+            <span asp-validation-for="FirstName"></span>
+        </div>
+        <div id="DivInputStyle">
+            <label asp-for="Login"></label>
+            <input id="InputCommonStyle"  asp-for="Login"/>
+            <span asp-validation-for="Login"></span>
+        </div>
+        <div id="DivInputStyle">
+            <label asp-for="Password"></label>
+            <input id="InputCommonStyle" type="password" asp-for="Password"/>
+            <span asp-validation-for="Password"></span>
+        </div>
+        <div id="DivInputStyle">
+            <label asp-for="PasswordConfirm"></label>
+            <input id="InputCommonStyle" type="password" asp-for="PasswordConfirm"/>
+            <span asp-validation-for="PasswordConfirm"></span>
+        </div>
+        <div id="DivInputStyle">
+            <button type="submit" id="ButtonCommonStyle" name="SenderButton">Регестрироваться</button>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,50 @@
+﻿@model List<CourceProject.Models.User>
+@using Microsoft.AspNetCore.Identity
+@inject RoleManager<IdentityRole> RoleManager
+
+@{
+    Layout = "~/Views/Shared/MasterPage.cshtml";
+}
+
+
+@if (User.IsInRole("SuperUser"))
+{
+    <form action="AdministrationRoot">
+        <button id="skewed_button" name="menu_button_0" onclick="SumbitFuncButton(0)">Вернуться на главную</button>
+        <button id="skewed_button" name="menu_button_1" onclick="SumbitFuncButton(1)">Исправить учетные записи пользователей</button>
+        <button id="skewed_button" name="menu_button_2" onclick="SumbitFuncButton(2)">Забнить/разбанить пользователя</button>
+        <button id="skewed_button" name="menu_button_3" onclick="SumbitFuncButton(3)">Добавить новые роли</button>
+        <input id="SecretInput" name="sumbitButton" value="Create" style="display:none;" />
+    </form>
+    @if (!ViewData.ModelState.IsValid)
+    {
+        <div class="error-message" role="alert">
+            <h4 class="alert-heading">Ошибка!</h4>
+            <p>Произошла ошибка при создании роли:</p>
+            <ul>
+                @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                {
+                    <li>@error.ErrorMessage</li>
+                }
+            </ul>
+        </div>
+    }
+    <div>
+        <form action="AdministrationCreateRole">
+            <label>Имя новой роли</label>
+            <input type="text" name="NameOfRole">
+            <button name="TypePage" value="UpdatePage" id="skewed_button" type="submit">Создать</button>
+        </form>
+   </div>
+}
+else
+{
+    <div>
+        <label>
+            Что пошло не так. Нажмите кнопку что бы вернуться на главную страницу.
+        </label>
+        <form action="AdministrationRoot">
+            <button type="submit">Вернуться</button>
+        </form>
+    </div>
+}

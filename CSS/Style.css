@@ -1,0 +1,37 @@
+#BodyCommonStyle
+{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    font-family: Arial;
+}
+
+#HeaderCommonStyle
+{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    background-color: #ccc5c5;
+}
+
+#ContentCommonStyle
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#FooterCommonStyle
+{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    background-color: #ccc5c5;
+}
+
+#InputCommonStyle
+{
+    border-radius: 5px;
+    border: #ffc266;
+    background-color: #ccc5c5;
+}

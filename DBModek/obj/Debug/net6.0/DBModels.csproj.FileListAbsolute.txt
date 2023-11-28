@@ -1,0 +1,14 @@
+G:\3-cours\5 term\РПбДдИС\CourceProject\DBModek\bin\Debug\net6.0\DBModels.deps.json
+G:\3-cours\5 term\РПбДдИС\CourceProject\DBModek\bin\Debug\net6.0\DBModels.runtimeconfig.json
+G:\3-cours\5 term\РПбДдИС\CourceProject\DBModek\bin\Debug\net6.0\DBModels.dll
+G:\3-cours\5 term\РПбДдИС\CourceProject\DBModek\bin\Debug\net6.0\DBModels.pdb
+G:\3-cours\5 term\РПбДдИС\CourceProject\DBModek\obj\Debug\net6.0\DBModels.csproj.AssemblyReference.cache
+G:\3-cours\5 term\РПбДдИС\CourceProject\DBModek\obj\Debug\net6.0\DBModels.GeneratedMSBuildEditorConfig.editorconfig
+G:\3-cours\5 term\РПбДдИС\CourceProject\DBModek\obj\Debug\net6.0\DBModels.AssemblyInfoInputs.cache
+G:\3-cours\5 term\РПбДдИС\CourceProject\DBModek\obj\Debug\net6.0\DBModels.AssemblyInfo.cs
+G:\3-cours\5 term\РПбДдИС\CourceProject\DBModek\obj\Debug\net6.0\DBModels.csproj.CoreCompileInputs.cache
+G:\3-cours\5 term\РПбДдИС\CourceProject\DBModek\obj\Debug\net6.0\DBModels.dll
+G:\3-cours\5 term\РПбДдИС\CourceProject\DBModek\obj\Debug\net6.0\refint\DBModels.dll
+G:\3-cours\5 term\РПбДдИС\CourceProject\DBModek\obj\Debug\net6.0\DBModels.pdb
+G:\3-cours\5 term\РПбДдИС\CourceProject\DBModek\obj\Debug\net6.0\DBModels.genruntimeconfig.cache
+G:\3-cours\5 term\РПбДдИС\CourceProject\DBModek\obj\Debug\net6.0\ref\DBModels.dll

@@ -1,0 +1,15 @@
+G:\3-cours\5 term\РПбДдИС\CourceProject\Filtration\bin\Debug\net6.0\Filtration.deps.json
+G:\3-cours\5 term\РПбДдИС\CourceProject\Filtration\bin\Debug\net6.0\Filtration.dll
+G:\3-cours\5 term\РПбДдИС\CourceProject\Filtration\bin\Debug\net6.0\Filtration.pdb
+G:\3-cours\5 term\РПбДдИС\CourceProject\Filtration\bin\Debug\net6.0\DBModels.dll
+G:\3-cours\5 term\РПбДдИС\CourceProject\Filtration\bin\Debug\net6.0\DBModels.pdb
+G:\3-cours\5 term\РПбДдИС\CourceProject\Filtration\obj\Debug\net6.0\Filtration.csproj.AssemblyReference.cache
+G:\3-cours\5 term\РПбДдИС\CourceProject\Filtration\obj\Debug\net6.0\Filtration.GeneratedMSBuildEditorConfig.editorconfig
+G:\3-cours\5 term\РПбДдИС\CourceProject\Filtration\obj\Debug\net6.0\Filtration.AssemblyInfoInputs.cache
+G:\3-cours\5 term\РПбДдИС\CourceProject\Filtration\obj\Debug\net6.0\Filtration.AssemblyInfo.cs
+G:\3-cours\5 term\РПбДдИС\CourceProject\Filtration\obj\Debug\net6.0\Filtration.csproj.CoreCompileInputs.cache
+G:\3-cours\5 term\РПбДдИС\CourceProject\Filtration\obj\Debug\net6.0\Filtration.csproj.CopyComplete
+G:\3-cours\5 term\РПбДдИС\CourceProject\Filtration\obj\Debug\net6.0\Filtration.dll
+G:\3-cours\5 term\РПбДдИС\CourceProject\Filtration\obj\Debug\net6.0\refint\Filtration.dll
+G:\3-cours\5 term\РПбДдИС\CourceProject\Filtration\obj\Debug\net6.0\Filtration.pdb
+G:\3-cours\5 term\РПбДдИС\CourceProject\Filtration\obj\Debug\net6.0\ref\Filtration.dll

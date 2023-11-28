@@ -1,0 +1,46 @@
+﻿@page
+@{
+    Layout = "~/Views/Shared/MasterPage.cshtml";
+}
+
+
+@if(User.Identity.IsAuthenticated)
+{
+<div id="DivMenu"> 
+    <form id="RootForm" method="get" asp-action="RootManager">
+            <select id="RootSelect"  onchange="SumbitFuncForSelection(this.value)">
+                <option value="tables">Tables</option>
+                <option  value="materialTable">Material Table</option>
+                <option  value="employeTable">Employe Table</option>
+                <option  value="deliveredResorcesTable">Delivered Resorces Table</option>
+                <option  value="requiredResourcesTable">Required Resources Table</option>
+                <option  value="supplyContractsTable">Supply Contracts Table</option>
+        </select>
+        <input name="someTable" id="SecretInput" style="visibility: hidden;">
+    </form>
+    <button id="skewed_button">Profile</button>
+    @if (User.IsInRole("SuperUser"))
+    {
+        <form method="post" asp-action="RedirectToAdminPage">
+                <button type="submit" id="skewed_button">Administration</button>
+        </form>
+    }
+    <form id="RootForm" asp-controller="BasePage" asp-action="Logout">
+        <button type="submit" id="skewed_button">Exit</button>
+    </form>
+</div>
+<div>
+    <label>@User.Identity.Name</label>
+</div>
+}
+else
+{
+<div id="DivMenu"> 
+    <button id="skewed_button">Tabels</button>
+    <button id="skewed_button">Profile</button>
+    <button id="skewed_button">Administration</button>
+    <form asp-action="Login" asp-controller="BasePage">
+        <button type="submit" id="skewed_button">Login</button>
+    </form>
+</div>
+}

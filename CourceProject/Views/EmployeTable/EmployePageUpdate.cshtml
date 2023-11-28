@@ -1,0 +1,104 @@
+﻿@model List<DBModels.Employe>
+
+@{
+    Layout = "~/Views/Shared/MasterPage.cshtml";
+}
+
+<form action="EmployePageRoot" id="DivMenu">
+    <button name="menu_button_0" value="Y" onclick="SumbitFuncButton(0)" id="skewed_button">Добавить записи</button>
+    <button name="menu_button_1" value="N" onclick="SumbitFuncButton(1)" id="skewed_button">Вывести записи</button>
+    <button name="menu_button_2" value="N" onclick="SumbitFuncButton(2)" id="skewed_button">Обновить записи</button>
+    <button name="menu_button_3" value="N" onclick="SumbitFuncButton(3)" id="skewed_button">Удалить записи</button>
+    <button name="menu_button_4" value="N" onclick="SumbitFuncButton(4)" id="skewed_button">Вернутся</button>
+    <input id="SecretInput" name="sumbitButton" value="Update" style="display:none;" />
+</form>
+
+<div id="DivMenuOfFiltersOfRead">
+    <form method="post" id="DivSelectMenu">
+        <div id="DivMenuOfTable">
+            <label>Индефикатор пользователя</label>
+            <input id="0" type="checkbox" onchange="ChoseFilterInput(0)" />
+        </div>
+        <div id="DivMenuOfTable">
+            <label>Имя сотрудника</label>
+            <input id="1" type="checkbox" onchange="ChoseFilterInput(1)" />
+        </div>
+        <div id="DivMenuOfTable">
+            <label>Фамилия сотрудника</label>
+            <input id="2" type="checkbox" onchange="ChoseFilterInput(2)" />
+        </div>
+        <div id="DivMenuOfTable">
+            <label>Должность</label>
+            <input id="3" type="checkbox" onchange="ChoseFilterInput(3)" />
+        </div>
+    </form>
+
+    <div>
+        <label>Обновление</label>
+        <form style="background-color: powderblue;" id="DivInputMenu" method="post" action="EmploePageRead">
+            <div style="display: none;" name="0input" id="DivMenuOfTable">
+                <label>Индефикатор пользователя</label>
+                <input name="EmployeeId" type="number" />
+            </div>
+            <div style="display: none;" name="1input" id="DivMenuOfTable">
+                <label>Имя сотрудника</label>
+                <input name="FirstName" />
+            </div>
+            <div style="display: none;" name="2input" id="DivMenuOfTable">
+                <label>Фамилия сотрудника</label>
+                <input name="LastName" />
+            </div>
+            <div style="display: none;" name="3input" id="DivMenuOfTable">
+                <label>Должность</label>
+                <input name="Post" />
+            </div>
+            <input name="TypePage" value="UpdatePage" style="display: none;" />
+            <button id="skewed_button" type="submit">Отправить</button>
+        </form>
+
+        <form style="background-color: red;" id="DivInputMenu" method="post" action="EmployePageUpdate">
+            <div style="display: block;" name="0input" id="DivMenuOfTable">
+                <label>Индефикатор пользователя</label>
+                <input name="EmployeeId" type="number" />
+            </div>
+            <div style="display: block;" name="1input" id="DivMenuOfTable">
+                <label>Имя сотрудника</label>
+                <input name="FirstName" />
+            </div>
+            <div style="display: block;" name="2input" id="DivMenuOfTable">
+                <label>Фамилия сотрудника</label>
+                <input name="LastName" />
+            </div>
+            <div style="display: block;" name="3input" id="DivMenuOfTable">
+                <label>Должность</label>
+                <input name="Post" />
+            </div>
+            <input name="TypePage" value="UpdatePage" style="display: none;" />
+            <button id="skewed_button" type="submit">Отправить</button>
+        </form>
+    </div>
+</div>
+<div id="DivInputFilter's'">
+</div>
+<div id="DivResult">
+    @if (Model.Count != 0)
+    {
+        <table class="table">
+            <tr>
+                <th>EmployeeId</th>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>Post</th>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.EmployeeId</td>
+                    <td>@item.FirstName</td>
+                    <td>@item.LastName</td>
+                    <td>@item.Post</td>
+                </tr>
+            }
+        </table>
+    }
+</div>

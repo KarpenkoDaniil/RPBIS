@@ -1,0 +1,149 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CourceProject
+build_property.RootNamespace = CourceProject
+build_property.ProjectDir = G:\3-cours\5 term\РПбДдИС\CourceProject\CourceProject\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = G:\3-cours\5 term\РПбДдИС\CourceProject\CourceProject
+build_property._RazorSourceGeneratorDebug = 
+
+[G:/3-cours/5 term/РПбДдИС/CourceProject/CourceProject/Views/Admin/AdminPageBanOrUnban.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5QYWdlQmFuT3JVbmJhbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/3-cours/5 term/РПбДдИС/CourceProject/CourceProject/Views/Admin/AdminPageCreateRoles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5QYWdlQ3JlYXRlUm9sZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/3-cours/5 term/РПбДдИС/CourceProject/CourceProject/Views/Admin/AdminPageRedactProfilesOfUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5QYWdlUmVkYWN0UHJvZmlsZXNPZlVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/3-cours/5 term/РПбДдИС/CourceProject/CourceProject/Views/Admin/AdminView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5WaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/3-cours/5 term/РПбДдИС/CourceProject/CourceProject/Views/BasePage/BasePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFzZVBhZ2VcQmFzZVBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/3-cours/5 term/РПбДдИС/CourceProject/CourceProject/Views/DeliveredResourceTable/DeliveredResourcePageCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsaXZlcmVkUmVzb3VyY2VUYWJsZVxEZWxpdmVyZWRSZXNvdXJjZVBhZ2VDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/3-cours/5 term/РПбДдИС/CourceProject/CourceProject/Views/DeliveredResourceTable/DeliveredResourcePageDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsaXZlcmVkUmVzb3VyY2VUYWJsZVxEZWxpdmVyZWRSZXNvdXJjZVBhZ2VEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/3-cours/5 term/РПбДдИС/CourceProject/CourceProject/Views/DeliveredResourceTable/DeliveredResourcePageRead.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsaXZlcmVkUmVzb3VyY2VUYWJsZVxEZWxpdmVyZWRSZXNvdXJjZVBhZ2VSZWFkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/3-cours/5 term/РПбДдИС/CourceProject/CourceProject/Views/DeliveredResourceTable/DeliveredResourcePageUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsaXZlcmVkUmVzb3VyY2VUYWJsZVxEZWxpdmVyZWRSZXNvdXJjZVBhZ2VVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/3-cours/5 term/РПбДдИС/CourceProject/CourceProject/Views/EmployeTable/EmployePageCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZVRhYmxlXEVtcGxveWVQYWdlQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/3-cours/5 term/РПбДдИС/CourceProject/CourceProject/Views/EmployeTable/EmployePageDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZVRhYmxlXEVtcGxveWVQYWdlRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/3-cours/5 term/РПбДдИС/CourceProject/CourceProject/Views/EmployeTable/EmployePageRead.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZVRhYmxlXEVtcGxveWVQYWdlUmVhZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/3-cours/5 term/РПбДдИС/CourceProject/CourceProject/Views/EmployeTable/EmployePageUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZVRhYmxlXEVtcGxveWVQYWdlVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/3-cours/5 term/РПбДдИС/CourceProject/CourceProject/Views/Loger/LogerView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nZXJcTG9nZXJWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/3-cours/5 term/РПбДдИС/CourceProject/CourceProject/Views/Loger/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nZXJcUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/3-cours/5 term/РПбДдИС/CourceProject/CourceProject/Views/MaterialTable/MaterialPageCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0ZXJpYWxUYWJsZVxNYXRlcmlhbFBhZ2VDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/3-cours/5 term/РПбДдИС/CourceProject/CourceProject/Views/MaterialTable/MaterialPageDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0ZXJpYWxUYWJsZVxNYXRlcmlhbFBhZ2VEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/3-cours/5 term/РПбДдИС/CourceProject/CourceProject/Views/MaterialTable/MaterialPageRead.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0ZXJpYWxUYWJsZVxNYXRlcmlhbFBhZ2VSZWFkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/3-cours/5 term/РПбДдИС/CourceProject/CourceProject/Views/MaterialTable/MaterialPageUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0ZXJpYWxUYWJsZVxNYXRlcmlhbFBhZ2VVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/3-cours/5 term/РПбДдИС/CourceProject/CourceProject/Views/RequiredResourceTable/RequiredResourcePageCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVxdWlyZWRSZXNvdXJjZVRhYmxlXFJlcXVpcmVkUmVzb3VyY2VQYWdlQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/3-cours/5 term/РПбДдИС/CourceProject/CourceProject/Views/RequiredResourceTable/RequiredResourcePageDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVxdWlyZWRSZXNvdXJjZVRhYmxlXFJlcXVpcmVkUmVzb3VyY2VQYWdlRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/3-cours/5 term/РПбДдИС/CourceProject/CourceProject/Views/RequiredResourceTable/RequiredResourcePageRead.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVxdWlyZWRSZXNvdXJjZVRhYmxlXFJlcXVpcmVkUmVzb3VyY2VQYWdlUmVhZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/3-cours/5 term/РПбДдИС/CourceProject/CourceProject/Views/RequiredResourceTable/RequiredResourcePageUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVxdWlyZWRSZXNvdXJjZVRhYmxlXFJlcXVpcmVkUmVzb3VyY2VQYWdlVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/3-cours/5 term/РПбДдИС/CourceProject/CourceProject/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/3-cours/5 term/РПбДдИС/CourceProject/CourceProject/Views/Shared/MasterPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE1hc3RlclBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/3-cours/5 term/РПбДдИС/CourceProject/CourceProject/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/3-cours/5 term/РПбДдИС/CourceProject/CourceProject/Views/SuplyContractTable/SuplyContractPageCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwbHlDb250cmFjdFRhYmxlXFN1cGx5Q29udHJhY3RQYWdlQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/3-cours/5 term/РПбДдИС/CourceProject/CourceProject/Views/SuplyContractTable/SuplyContractPageDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwbHlDb250cmFjdFRhYmxlXFN1cGx5Q29udHJhY3RQYWdlRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/3-cours/5 term/РПбДдИС/CourceProject/CourceProject/Views/SuplyContractTable/SuplyContractPageRead.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwbHlDb250cmFjdFRhYmxlXFN1cGx5Q29udHJhY3RQYWdlUmVhZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/3-cours/5 term/РПбДдИС/CourceProject/CourceProject/Views/SuplyContractTable/SuplyContractPageUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwbHlDb250cmFjdFRhYmxlXFN1cGx5Q29udHJhY3RQYWdlVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/3-cours/5 term/РПбДдИС/CourceProject/CourceProject/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/3-cours/5 term/РПбДдИС/CourceProject/CourceProject/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/3-cours/5 term/РПбДдИС/CourceProject/CourceProject/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-35odlga2ms
